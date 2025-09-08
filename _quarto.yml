@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Portfolio of Bioinformatic Work"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: myPackages.qmd
+        text: Packages
+      - href: basicTools.qmd
+        text: Tools
+      - href: analyses.qmd
+        text: Analyses
+      - href: teaching.qmd
+        text: Teaching
+
+
+format:
+  html:
+    theme: cyborg
+    css: styles.css
+    toc: true
+
+editor: source
+

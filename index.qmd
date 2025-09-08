@@ -1,0 +1,31 @@
+---
+title: "My Bioinformatic Work"
+---
+
+This webpage is an overview of my bioinformatic work
+
+
+
+
+
+# The building blocks of bioinformatics 
+
+In my bioinformatics work I take a flexible approach to elucidate biological systems. I design dynamic analytic pipelines to fit the appropriate research questions while maintaining fundamental programmatic building blocks across all projects. To then convey the results of such complex biological interactions it is necessary to have good communications among all members of the research team. An essential component of my role is to train and teach these analytic building blocks and present research outputs visually and interactively.
+
+I approach teaching with the same concepts. I ran a bioinformatics help session at the Department of Anatomy at the University of Otago, New Zealand. 
+
+::: {#fig-blocks layout-ncol=2}
+
+![alignment](images/alignment.png){#fig-alignment}
+
+![clustering](images/uparse.jpg){#fig-clustering}
+
+Basic processes of bioinformatics
+:::
+
+
+
+![align](images/alignment.png){width="1000"}
+
+![clustering](images/uparse.jpg){width="1000"}
+
