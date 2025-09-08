@@ -39,7 +39,7 @@
     "href": "analyses.html#population-genomics-from-environmental-data",
     "title": "Analyses",
     "section": "Population genomics from environmental data",
-    "text": "Population genomics from environmental data\nThe code (on this repository) was developed for a PhD project at the University of Otago. The student collected water from bays and harbours around New Zealand that had populations of fur seals. DNA was extracted from the water samples and probed with hybrid capture baits designed from fur seal mitochondrion. I designed some scripts to identify fur seal haplotypes from mitochondrial genes. Because the samples were environmental, I did not use assembly to construct haplotypes but instead devised a script to match the haplotype of each sequence separately."
+    "text": "Population genomics from environmental data\nThe code (on this repository) was developed for a PhD project at the University of Otago (preprint here). The student collected water from bays and harbours around New Zealand that had populations of fur seals. DNA was extracted from the water samples and probed with hybrid capture baits designed from fur seal mitochondrion. I designed some scripts to identify fur seal haplotypes from mitochondrial genes. Because the samples were environmental, I did not use assembly to construct haplotypes but instead devised a script to match the haplotype of each sequence separately.\n\n\n\nfur seal"
   },
   {
     "objectID": "analyses.html#metabarcoding-pipeline-example",
