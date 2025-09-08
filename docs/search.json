@@ -1,10 +1,38 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "As part of the Otago Carpentries group (main link) I have helped put on frequent workshops and training sessions. Here is a link to past workshops, which contain a great deal of content. The Bioinformatics Spring School, held in November, 2020, provides a framework for future large events through Otago Carpentries. It consisted of both basic lessons and specific training in several areas, such as gene expression and population genetics.\nI have taught several workshops on environmental DNA (eDNA), and organised an eDNA conference attended by researchers from throughout New Zealand and the Pacific region. As part of the conference, I taught a one-day workshop on metabarcoding, which included an optional day for beginners to learn the basics of the command line and R. I continued to develop the content for this course and taught it several times."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My Bioinformatic Work",
     "section": "",
     "text": "The building blocks of bioinformatics\nIn my bioinformatics work I take a flexible approach to elucidate biological systems. I design dynamic analytic pipelines to fit the appropriate research questions while maintaining fundamental programmatic building blocks across all projects. To then convey the results of such complex biological interactions it is necessary to have good communications among all members of the research team. An essential component of my role is to train and teach these analytic building blocks and present research outputs visually and interactively.\nI approach teaching with the same concepts. I ran a bioinformatics help session at the Department of Anatomy at the University of Otago, New Zealand.\n\n\n\n\n\n\n\n(a) alignment\n\n\n\n\n\n\n\n(b) clustering\n\n\n\n\nFigure 1: Basic processes of bioinformatics"
+  },
+  {
+    "objectID": "basicTools.html",
+    "href": "basicTools.html",
+    "title": "Bioinformatic Tools",
+    "section": "",
+    "text": "Here are some bioinformatic tools I have created for large and small research projects"
+  },
+  {
+    "objectID": "basicTools.html#basic-tools",
+    "href": "basicTools.html#basic-tools",
+    "title": "Bioinformatic Tools",
+    "section": "Basic Tools",
+    "text": "Basic Tools\nHere are some examples of basic bioinformatic tools I have written (some were written in Python 2).\nIn my repository seq_tools I have put a few scripts that I use for manipulating DNA sequence data. A useful one is seq_extractor.py, that I use to extract a subset of sequences from a larger fasta file, from a file with a list of sequence ids. The page contains example files. I have used this script a great deal, as I find I often want to take a subset of sequences from a file (e.g. differentially expressed transcripts from a transcriptome file). I often use it interactively in Jupyter Notebook. I have extracted sequences from very large files (e.g. spruce genome, 8 Gb with about 12 million scaffolds). The speed was tremendously improved when I converted the list of sequence ids to a Python set (from hours to minutes). Just goes to show that data structures matter!\nMy repository genbanking contains a couple of scripts for parsing NCBI files, including BLAST files and Genbank format sequence files. I use these kinds of files so often that I put together some general tools for parsing and extracting information from them. I describe two below, but I will be adding more."
+  },
+  {
+    "objectID": "basicTools.html#jupyter-notebooks",
+    "href": "basicTools.html#jupyter-notebooks",
+    "title": "Bioinformatic Tools",
+    "section": "Jupyter notebooks",
+    "text": "Jupyter notebooks\nI do most of my Python development using Jupyter notebooks. I have started to export the notebooks in HTML format so I can reference them easily. Here is a link to the index page."
   },
   {
     "objectID": "myPackages.html",

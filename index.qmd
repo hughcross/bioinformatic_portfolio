@@ -2,9 +2,7 @@
 title: "My Bioinformatic Work"
 ---
 
-This webpage is an overview of my bioinformatic work
-
-
+This webpage is an overview of my bioinformatic work. I approach bioinformatics with a creative, problem-solving approach for diverse research questions. I have developed bioinformatic pipelines for a wide range of research projects, including population and phylogenetic studies, metagenomics, epigenetics, comparative genomics, transcriptomics, and gene expression of both host and pathogens. To address this diversity of research themes I strive to create tools that are flexible and can be applied across multiple projects. As a bioinformatician with a background in laboratory genetics, I understand the challenges that my colleagues face when approaching genomic data. I always work to create bioinformatic pipelines and workflows that allow all researchers on a project to explore the data.
 
 
 

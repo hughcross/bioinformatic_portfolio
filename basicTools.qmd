@@ -2,5 +2,17 @@
 title: "Bioinformatic Tools"
 ---
 
-# Here are some bioinformatic tools I have created for large and small research projects
+Here are some bioinformatic tools I have created for large and small research projects
 
+## Basic Tools
+
+Here are some examples of basic bioinformatic tools I have written (some were written in Python 2). 
+
+In my repository [seq_tools](https://github.com/hughcross/seq_tools) I have put a few scripts that I use for manipulating DNA sequence data. A useful one is seq_extractor.py, that I use to extract a subset of sequences from a larger fasta file, from a file with a list of sequence ids. The page contains example files. I have used this script a great deal, as I find I often want to take a subset of sequences from a file (e.g. differentially expressed transcripts from a transcriptome file). I often use it interactively in Jupyter Notebook. I have extracted sequences from very large files (e.g. spruce genome, 8 Gb with about 12 million scaffolds). The speed was tremendously improved when I converted the list of sequence ids to a Python set (from hours to minutes). Just goes to show that data structures matter!
+
+My repository [genbanking](https://github.com/hughcross/genbanking) contains a couple of scripts for parsing NCBI files, including BLAST files and Genbank format sequence files. I use these kinds of files so often that I put together some general tools for parsing and extracting information from them. I describe two below, but I will be adding more.
+
+
+## Jupyter notebooks
+
+I do most of my Python development using Jupyter notebooks. I have started to export the notebooks in HTML format so I can reference them easily. [Here is a link](https://hughcross.github.io/links.html) to the index page.
