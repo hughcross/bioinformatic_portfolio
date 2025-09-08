@@ -109,7 +109,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#here-are-the-major-bioinformatic-projects-on-which-i-have-worked" id="toc-here-are-the-major-bioinformatic-projects-on-which-i-have-worked" class="nav-link active" data-scroll-target="#here-are-the-major-bioinformatic-projects-on-which-i-have-worked">Here are the major bioinformatic projects on which I have worked</a></li>
+  <li><a href="#crabs" id="toc-crabs" class="nav-link active" data-scroll-target="#crabs">Crabs</a></li>
+  <li><a href="#phyloneon" id="toc-phyloneon" class="nav-link" data-scroll-target="#phyloneon">phyloNEON</a></li>
   </ul>
 </nav>
     </div>
@@ -132,8 +133,27 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="here-are-the-major-bioinformatic-projects-on-which-i-have-worked" class="level1">
-<h1>Here are the major bioinformatic projects on which I have worked</h1>
+<section id="crabs" class="level2">
+<h2 class="anchored" data-anchor-id="crabs">Crabs</h2>
+<p>I am a co-developer on the Python program <a href="https://github.com/gjeunen/reference_database_creator"><strong>Crabs</strong></a>. This program creates and curates reference databases from downloaded sequence data, including NCBI, EMBL, and curated databases such as UNITE. The reference databases from Crabs can be used to prepare reference databases for amplicon sequencing work. It features both <em>insilico PCR</em> and alignment-based methods to find target sequences in online databases. There are also some summary figures that can be generated to evaluate diversity of targets and primers. I also created a Docker image for this program (quay.io/swordfish/crabs).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/diversity-figure.png" class="img-fluid figure-img" width="1000"></p>
+<p></p><figcaption class="figure-caption">align</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="phyloneon" class="level2">
+<h2 class="anchored" data-anchor-id="phyloneon">phyloNEON</h2>
+<p>I have created an R package, phyloNEON, to help researchers access and use NEON genetic data. A database included in the package contains all NEON metagenome samples that have been analyzed through the JGI pipeline with extensive metadata to assist in searching. I have written functions that help users search this database and access taxonomic and functional genomic data for each sample.</p>
+<p>For the processed amplicon sequuence data (see analyses), phyloNEON also includes functions to convert downloaded NEON metabarcoding data to the <a href="https://joey711.github.io/phyloseq/">phyloseq package</a> format.</p>
+<p>This package is being continually developed, with plans to include tools to help researchers access and utilize all NEON genetic data. For some tools they have utility for non-NEON genetic data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/phyloNEON_logo2.png" class="img-fluid figure-img" width="1000"></p>
+<p></p><figcaption class="figure-caption">align</figcaption><p></p>
+</figure>
+</div>
 
 
 </section>
