@@ -109,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#major-milestones-of-my-data-analysis" id="toc-major-milestones-of-my-data-analysis" class="nav-link active" data-scroll-target="#major-milestones-of-my-data-analysis">Major milestones of my data analysis</a></li>
+  <li><a href="#microbe-community-taxonomy-data-product" id="toc-microbe-community-taxonomy-data-product" class="nav-link active" data-scroll-target="#microbe-community-taxonomy-data-product">Microbe Community Taxonomy data product</a></li>
   </ul>
 </nav>
     </div>
@@ -132,8 +132,17 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="major-milestones-of-my-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="major-milestones-of-my-data-analysis">Major milestones of my data analysis</h2>
+<p>This page includes some milestones of my data analysis</p>
+<section id="microbe-community-taxonomy-data-product" class="level2">
+<h2 class="anchored" data-anchor-id="microbe-community-taxonomy-data-product">Microbe Community Taxonomy data product</h2>
+<p>The older NEON product ‘Microbe Community Composition’ needed updating, so I overhauled it anc created the new version: ‘Microbe Community Taxonomy’. The new version allows for comparison of all samples across years and sites.</p>
+<p>To accomplish this I developed a pipeline to process NEON amplicon sequence data using multiple approaches and ran them using Docker images in a Kubernetes engine on the NEON node of the Google Cloud Platform. The results of this analysis comprise over 15000 samples collected over seven years (2018-2024) across all 81 NEON field sites, with thousands of new samples to be sequenced each year. Perhaps more challenging than running the data through the pipeline was organizing the results so as to be flexible for end users to download any number of samples from any year. This required devising new systems to substitute for the sometimes overwhelmed data structures of the existing software.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/mct_search.png" class="img-fluid figure-img" width="1000"></p>
+<p></p><figcaption class="figure-caption">MCT data product on NEON data portal</figcaption><p></p>
+</figure>
+</div>
 
 
 </section>

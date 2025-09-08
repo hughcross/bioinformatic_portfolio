@@ -11,7 +11,28 @@
     "href": "index.html",
     "title": "My Bioinformatic Work",
     "section": "",
-    "text": "The building blocks of bioinformatics\nIn my bioinformatics work I take a flexible approach to elucidate biological systems. I design dynamic analytic pipelines to fit the appropriate research questions while maintaining fundamental programmatic building blocks across all projects. To then convey the results of such complex biological interactions it is necessary to have good communications among all members of the research team. An essential component of my role is to train and teach these analytic building blocks and present research outputs visually and interactively.\nI approach teaching with the same concepts. I ran a bioinformatics help session at the Department of Anatomy at the University of Otago, New Zealand.\n\n\n\n\n\n\n\n(a) alignment\n\n\n\n\n\n\n\n(b) clustering\n\n\n\n\nFigure 1: Basic processes of bioinformatics"
+    "text": "This webpage is an overview of my bioinformatic work. I approach bioinformatics with a creative, problem-solving approach for diverse research questions. I have developed bioinformatic pipelines for a wide range of research projects, including population and phylogenetic studies, metagenomics, epigenetics, comparative genomics, transcriptomics, and gene expression of both host and pathogens. To address this diversity of research themes I strive to create tools that are flexible and can be applied across multiple projects. As a bioinformatician with a background in laboratory genetics, I understand the challenges that my colleagues face when approaching genomic data. I always work to create bioinformatic pipelines and workflows that allow all researchers on a project to explore the data."
+  },
+  {
+    "objectID": "index.html#the-building-blocks-of-bioinformatics",
+    "href": "index.html#the-building-blocks-of-bioinformatics",
+    "title": "My Bioinformatic Work",
+    "section": "The building blocks of bioinformatics",
+    "text": "The building blocks of bioinformatics\nIn my bioinformatics work I take a flexible approach to elucidate biological systems. I design dynamic analytic pipelines to fit the appropriate research questions while maintaining fundamental programmatic building blocks across all projects. To then convey the results of such complex biological interactions it is necessary to have good communications among all members of the research team. An essential component of my role is to train and teach these analytic building blocks and present research outputs visually and interactively.\nI approach teaching with the same concepts. I ran a bioinformatics help session at the Department of Anatomy at the University of Otago, New Zealand. For a description of what I consider the bioinformatic building blocks see this page on the help session web page.\n\n\n\n\n\n\n\n(a) alignment\n\n\n\n\n\n\n\n(b) clustering\n\n\n\n\nFigure 1: Basic processes of bioinformatics"
+  },
+  {
+    "objectID": "analyses.html",
+    "href": "analyses.html",
+    "title": "Analyses",
+    "section": "",
+    "text": "This page includes some milestones of my data analysis"
+  },
+  {
+    "objectID": "analyses.html#microbe-community-taxonomy-data-product",
+    "href": "analyses.html#microbe-community-taxonomy-data-product",
+    "title": "Analyses",
+    "section": "Microbe Community Taxonomy data product",
+    "text": "Microbe Community Taxonomy data product\nThe older NEON product ‘Microbe Community Composition’ needed updating, so I overhauled it anc created the new version: ‘Microbe Community Taxonomy’. The new version allows for comparison of all samples across years and sites.\nTo accomplish this I developed a pipeline to process NEON amplicon sequence data using multiple approaches and ran them using Docker images in a Kubernetes engine on the NEON node of the Google Cloud Platform. The results of this analysis comprise over 15000 samples collected over seven years (2018-2024) across all 81 NEON field sites, with thousands of new samples to be sequenced each year. Perhaps more challenging than running the data through the pipeline was organizing the results so as to be flexible for end users to download any number of samples from any year. This required devising new systems to substitute for the sometimes overwhelmed data structures of the existing software.\n\n\n\nMCT data product on NEON data portal"
   },
   {
     "objectID": "basicTools.html",

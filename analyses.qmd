@@ -2,4 +2,13 @@
 title: "Analyses"
 ---
 
-## Major milestones of my data analysis
+This page includes some milestones of my data analysis
+
+## Microbe Community Taxonomy data product
+
+The older NEON product 'Microbe Community Composition' needed updating, so I overhauled it anc created the new version: 'Microbe Community Taxonomy'. The new version allows for comparison of all samples across years and sites. 
+
+To accomplish this I developed a pipeline to process NEON amplicon sequence data using multiple approaches and ran them using Docker images in a Kubernetes engine on the NEON node of the Google Cloud Platform. The results of this analysis comprise over 15000 samples collected over seven years (2018-2024) across all 81 NEON field sites, with thousands of new samples to be sequenced each year. Perhaps more challenging than running the data through the pipeline was organizing the results so as to be flexible for end users to download any number of samples from any year. This required devising new systems to substitute for the sometimes overwhelmed data structures of the existing software. 
+
+![MCT data product on NEON data portal](images/mct_search.png){width="1000"}
+
