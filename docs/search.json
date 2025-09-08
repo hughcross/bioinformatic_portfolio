@@ -4,7 +4,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "As part of the Otago Carpentries group (main link) I have helped put on frequent workshops and training sessions. Here is a link to past workshops, which contain a great deal of content. The Bioinformatics Spring School, held in November, 2020, provides a framework for future large events through Otago Carpentries. It consisted of both basic lessons and specific training in several areas, such as gene expression and population genetics.\nI have taught several workshops on environmental DNA (eDNA), and organised an eDNA conference attended by researchers from throughout New Zealand and the Pacific region. As part of the conference, I taught a one-day workshop on metabarcoding, which included an optional day for beginners to learn the basics of the command line and R. I continued to develop the content for this course and taught it several times."
+    "text": "In my previous position as bioinformatician in the Department of Anatomy at the University of Otago, I ran a bioinformatics help session in the Anatomy department. Most of the material from these sessions is available on the hacky hour webpage. These sessions range from getting started writing scripts to some guidelines on troubleshooting command line errors. Over the course of teaching I added some additional reference material to the site. The more advanced workshops generally comprised a combination of live coding and practical problem solving.\nAs part of the Otago Carpentries group (main link) I have helped put on frequent workshops and training sessions. Here is a link to past workshops, which contain a great deal of content. The Bioinformatics Spring School, held in November, 2020, provides a framework for future large events through Otago Carpentries. It consisted of both basic lessons and specific training in several areas, such as gene expression and population genetics.\nI have taught several workshops on environmental DNA (eDNA), and organised an eDNA conference attended by researchers from throughout New Zealand and the Pacific region. As part of the conference, I taught a one-day workshop on metabarcoding, which included an optional day for beginners to learn the basics of the command line and R. I continued to develop the content for this course and taught it several times."
   },
   {
     "objectID": "index.html",
@@ -32,7 +32,21 @@
     "href": "analyses.html#microbe-community-taxonomy-data-product",
     "title": "Analyses",
     "section": "Microbe Community Taxonomy data product",
-    "text": "Microbe Community Taxonomy data product\nThe older NEON product ‘Microbe Community Composition’ needed updating, so I overhauled it anc created the new version: ‘Microbe Community Taxonomy’. The new version allows for comparison of all samples across years and sites.\nTo accomplish this I developed a pipeline to process NEON amplicon sequence data using multiple approaches and ran them using Docker images in a Kubernetes engine on the NEON node of the Google Cloud Platform. The results of this analysis comprise over 15000 samples collected over seven years (2018-2024) across all 81 NEON field sites, with thousands of new samples to be sequenced each year. Perhaps more challenging than running the data through the pipeline was organizing the results so as to be flexible for end users to download any number of samples from any year. This required devising new systems to substitute for the sometimes overwhelmed data structures of the existing software.\n\n\n\nMCT data product on NEON data portal"
+    "text": "Microbe Community Taxonomy data product\nThe older NEON product ‘Microbe Community Composition’ needed updating, so I overhauled it and created the new version: ‘Microbe Community Taxonomy’. The new version allows for comparison of all samples across years and sites.\nTo accomplish this I developed a pipeline to process NEON amplicon sequence data using multiple approaches and ran them using Docker images in a Kubernetes engine on the NEON node of the Google Cloud Platform. The results of this analysis comprise over 15000 samples collected over seven years (2018-2024) across all 81 NEON field sites, with thousands of new samples to be sequenced each year. Perhaps more challenging than running the data through the pipeline was organizing the results so as to be flexible for end users to download any number of samples from any year. This required devising new systems to substitute for the sometimes overwhelmed data structures of the existing software.\n\n\n\nMCT data product on NEON data portal"
+  },
+  {
+    "objectID": "analyses.html#population-genomics-from-environmental-data",
+    "href": "analyses.html#population-genomics-from-environmental-data",
+    "title": "Analyses",
+    "section": "Population genomics from environmental data",
+    "text": "Population genomics from environmental data\nThe code (on this repository) was developed for a PhD project at the University of Otago. The student collected water from bays and harbours around New Zealand that had populations of fur seals. DNA was extracted from the water samples and probed with hybrid capture baits designed from fur seal mitochondrion. I designed some scripts to identify fur seal haplotypes from mitochondrial genes. Because the samples were environmental, I did not use assembly to construct haplotypes but instead devised a script to match the haplotype of each sequence separately."
+  },
+  {
+    "objectID": "analyses.html#metabarcoding-pipeline-example",
+    "href": "analyses.html#metabarcoding-pipeline-example",
+    "title": "Analyses",
+    "section": "Metabarcoding pipeline example",
+    "text": "Metabarcoding pipeline example\nThis repository is an example of an amplicon sequence pipeline I used for a recent paper. I have explored multiple approaches to metabarcoding, in both my research and teaching. See the Teaching page for examples of teaching different approaches."
   },
   {
     "objectID": "basicTools.html",
