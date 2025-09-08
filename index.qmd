@@ -25,7 +25,3 @@ Basic processes of bioinformatics
 
 
 
-![align](images/alignment.png){width="1000"}
-
-![clustering](images/uparse.jpg){width="1000"}
-

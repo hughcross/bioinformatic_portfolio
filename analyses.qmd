@@ -2,4 +2,4 @@
 title: "Analyses"
 ---
 
-# Major milestones of my data analysis
+## Major milestones of my data analysis
