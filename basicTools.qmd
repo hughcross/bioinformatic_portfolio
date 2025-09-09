@@ -15,4 +15,23 @@ My repository [genbanking](https://github.com/hughcross/genbanking) contains a c
 
 ## Jupyter notebooks
 
-I do most of my Python development using Jupyter notebooks. I have started to export the notebooks in HTML format so I can reference them easily. [Here is a link](https://hughcross.github.io/links.html) to the index page.
+I do most of my Python development using Jupyter notebooks. I have started to export the notebooks in HTML format so I can reference them easily. [Here is a link](https://hughcross.github.io/links.html) to the index page. 
+
+Here are a couple of notebooks on deriving haplotypes from sequence data:
+
+[find haplotypes](https://hughcross.github.io/notebooks/find_haps_w_functions.html)
+
+[extract haplotypes from bam file](https://hughcross.github.io/notebooks/extractHaplotypesDEL.html)
+
+For mapping to genomes, I wrote some code to work with GFF files:
+
+[Finding overlapping ranges between two gff files](https://hughcross.github.io/notebooks/finding_overlapping_ranges_between_two_gffs_dev.html)
+
+[Change values in column of gff](https://hughcross.github.io/notebooks/change_values_in_column_of_gff.html)
+
+For converting tables 
+
+[Create reference sequence from BLAST results](https://hughcross.github.io/notebooks/create_trnl_ref_from_blast.html)
+
+[Convert Obitools tab to Qiime2](https://hughcross.github.io/notebooks/convert_obitab2qiime.html)
+

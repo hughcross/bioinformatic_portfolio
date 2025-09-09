@@ -6,7 +6,7 @@ title: "Major Projects"
 
 I am a co-developer on the Python program [**Crabs**](https://github.com/gjeunen/reference_database_creator). This program creates and curates reference databases from downloaded sequence data, including NCBI, EMBL, and curated databases such as UNITE. The reference databases from Crabs can be used to prepare reference databases for amplicon sequencing work. It features both *insilico PCR* and alignment-based methods to find target sequences in online databases. There are also some summary figures that can be generated to evaluate diversity of targets and primers. I also created a Docker image for this program (quay.io/swordfish/crabs).
 
-![diversity figure from Crabs](images/diversity-figure.png){width="1000"}
+![diversity figure from Crabs](images/diversity-figure.png)
 
 
 
